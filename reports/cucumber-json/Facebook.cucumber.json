@@ -1,0 +1,100 @@
+[
+  {
+    "description": "  I want to open a social network page",
+    "keyword": "Feature",
+    "name": "The Facebook",
+    "line": 2,
+    "id": "the-facebook",
+    "tags": [
+      {
+        "name": "@feature-tag",
+        "line": 1
+      }
+    ],
+    "uri": "Facebook.feature",
+    "elements": [
+      {
+        "id": "the-facebook;opening-a-social-network-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Opening a social network page",
+        "tags": [
+          {
+            "name": "@feature-tag",
+            "line": 1
+          },
+          {
+            "name": "@tag-to-include",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I open Facebook page",
+            "result": {
+              "status": "passed",
+              "duration": 3801000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see \"Facebook\" in the title",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "the-facebook;different-kind-of-opening",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Different kind of opening",
+        "tags": [
+          {
+            "name": "@feature-tag",
+            "line": 1
+          },
+          {
+            "name": "@another-tag-to-include",
+            "line": 11
+          },
+          {
+            "name": "@some-other-tag",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I kinda open Facebook page",
+            "result": {
+              "status": "passed",
+              "duration": 2156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I am very happy",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
